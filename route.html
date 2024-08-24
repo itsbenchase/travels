@@ -1,0 +1,30 @@
+<title>Route Viewer - Transit Travels</title> 
+<link rel=stylesheet href=style.css>
+<script src="calc.js"></script>
+<body onload="getAgencies()">
+<ul><li><a href=index.html>Home</a></li>
+<li><a href=user.html>User Viewer</a></li> 
+<li><a href=route.html class=active>Route Viewer</a></li></ul> 
+<h1>Route Viewer</h1>
+
+<p>Agency: <select id="agencyDrop"><option value="none">Select an agency</option></select> <button onclick="getOption()">Enter</button></p>
+
+<p>Route: <select id="routeDrop"><option value="none">Select a route</option></select></p>
+
+<p>
+  <button id="sumbit" type="button" onclick="findIndex()">Submit</button>
+  <button id="segment" type="button" onclick="findSegment()">Segment</button>
+  <button id="clear" type="button" onclick="clearAll()">Clear</button>
+</p>
+
+<p id="startDrop2"></p>
+<p id="endDrop2"></p>
+
+<h3 id="route" style="color:#000000">Not Available</h3>
+<p id="agency"><b>Agency: </b>Not Available</p>
+<p id="code"><b>Code: </b>Not Available</p>
+<p id="branch"><b>Branch: </b>Not Available</p>
+<p id="segstart"></p>
+<p id="segend"></p>
+<p id="length"><b>Length: </b>Not Available</p>
+<p id="stops"></p>  

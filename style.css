@@ -1,0 +1,131 @@
+html
+{
+    background-color: #d9ffde;
+}
+
+@font-face {
+    font-family: sourcesans;
+    src: url("font.ttf");
+}
+
+input[type="text"]
+{
+    font-family: sourcesans;
+    font-size: 16pt;
+    color: #000000;
+    background-color: #bcf5c4;
+    border: 1px solid #bcf5c4;
+}
+
+select
+{
+    font-family: sourcesans;
+    font-size: 16pt;
+    color: #000000;
+    background-color: #bcf5c4;
+    border: 1px solid #bcf5c4;
+    padding: 2px;
+    appearance: none;
+}
+
+option
+{
+    font-family: sourcesans;
+    font-size: 16pt;
+    color: #000000;
+    background-color: #bcf5c4;
+}
+
+button
+{
+    font-family: sourcesans;
+    font-size: 16pt;
+    background-color: #bcf5c4;
+    border: 1px solid #000000;
+}
+
+h1
+{
+    font-family: sourcesans;
+    font-size: 40pt;
+    color: #1aab2d;
+}
+
+h3
+{
+    font-family: sourcesans;
+    font-size: 20pt;
+    color: #1aab2d;
+}
+
+p
+{
+    font-family: sourcesans;
+    font-size: 16pt;
+    color: #000000;
+}
+
+table
+{
+    font-family: sourcesans;
+    font-size: 16pt;
+}
+
+th, td 
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #000000;
+}
+
+a:link
+{
+    color: #0097a7;
+}
+
+a:visited
+{
+    color: #0097a7;
+}
+
+a:hover
+{
+    color: #037885;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #bcf5c4;
+}
+  
+li 
+{
+    float: left;
+    font-family: sourcesans;
+    font-size: 16pt;
+}
+
+.bullet
+{
+    float: none;
+    font-family: sourcesans;
+    font-size: 16pt;
+    color: #000000;
+}
+  
+li a 
+{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active
+{
+    background-color: #ace8b4;
+}
