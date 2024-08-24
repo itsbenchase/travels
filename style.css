@@ -1,6 +1,8 @@
 html
 {
     background-color: #d9ffde;
+    font-family: sourcesans;
+    font-size: 16pt;
 }
 
 @font-face {
