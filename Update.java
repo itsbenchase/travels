@@ -67,7 +67,6 @@ public class Update
       }
     }
 
-
     allUserDist = Math.round(allUserDist * 100.0) / 100.0;
     wholeLog.add(0, "collective,all,all," + allUserDist);
 

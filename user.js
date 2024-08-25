@@ -55,6 +55,7 @@ function loadUserFile()
   globalRoutes.length = 0;
   globalDistance.length = 0;
   userDist = 0.00;
+  document.getElementById("info").innerHTML = ("");
 
   selectedUser = document.querySelector('#userDrop');
   user = selectedUser.value;
