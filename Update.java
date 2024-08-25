@@ -63,9 +63,12 @@ public class Update
         wholeLog.add(users.get(i) + "," + agency.get(j) + "," + line.get(j) + "," + currentLineDist);
         userDist += currentLineDist;
         allUserDist += currentLineDist;
+
       }
     }
 
+
+    allUserDist = Math.round(allUserDist * 100.0) / 100.0;
     wholeLog.add(0, "collective,all,all," + allUserDist);
 
     try
