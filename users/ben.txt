@@ -41,9 +41,19 @@ il-cta,156,1,44
 il-cta,171-n,1,15
 il-cta,172-n,1,14
 il-cta,201,1,57
+ma-mbta,Ashmont,4,11
+ma-mbta,Blue,2,5
+ma-mbta,Green D,1,25
+ma-mbta,Green E,10,25
+ma-mbta,Orange,5,17
 ma-mbta,Worcester,1,17
+ma-mbta,86,1,16
+il-metra,BNSF,1,8
+il-metra,ME-SC,1,14
+il-metra,MD-N,1,10
 il-metra,UP-N,1,27
 il-metra,UP-NW-harvard,1,20
+il-metra,UP-W,1,19
 ma-wrta,1,1,29
 ma-wrta,3,11,30
 ma-wrta,4,10,28
