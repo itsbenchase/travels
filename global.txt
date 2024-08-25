@@ -1,4 +1,4 @@
-collective,all,all,528.57
+collective,all,all,612.4
 ben,il-cta,Ashland-63,11.32
 ben,il-cta,Blue,26.97
 ben,il-cta,Brown,9.4
@@ -48,6 +48,7 @@ ben,ma-mbta,Green D,13.99
 ben,ma-mbta,Green E,6.54
 ben,ma-mbta,Orange,5.48
 ben,ma-mbta,Worcester,35.28
+ben,ma-mbta,SL1,3.59
 ben,ma-mbta,86,2.28
 ben,il-metra,BNSF,10.58
 ben,il-metra,ME-SC,9.64
@@ -55,6 +56,20 @@ ben,il-metra,MD-N,16.96
 ben,il-metra,UP-N,51.42
 ben,il-metra,UP-NW-harvard,51.47
 ben,il-metra,UP-W,43.06
+ben,mo-metro,Blue,6.61
+ben,mo-metro,70,1.34
+ben,il-pace,Dempster,14.14
+ben,il-pace,215,7.09
+ben,il-pace,270,4.06
+ben,il-pace,290,0.78
+ben,il-pace,309,2.32
+ben,il-pace,422,3.34
+ben,il-pace,472,5.26
+ben,pa-prt,Red,3.16
+ben,pa-prt,P1,3.91
+ben,pa-prt,1,22.81
+ben,pa-prt,29,2.01
+ben,pa-prt,77-L,3.41
 ben,ma-wrta,1,3.54
 ben,ma-wrta,3,2.19
 ben,ma-wrta,4,2.55

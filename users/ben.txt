@@ -47,6 +47,7 @@ ma-mbta,Green D,1,25
 ma-mbta,Green E,10,25
 ma-mbta,Orange,5,17
 ma-mbta,Worcester,1,17
+ma-mbta,SL1,1,10
 ma-mbta,86,1,16
 il-metra,BNSF,1,8
 il-metra,ME-SC,1,14
@@ -54,6 +55,20 @@ il-metra,MD-N,1,10
 il-metra,UP-N,1,27
 il-metra,UP-NW-harvard,1,20
 il-metra,UP-W,1,19
+mo-metro,Blue,10,20
+mo-metro,70,29,36
+il-pace,Dempster,1,17
+il-pace,215,1,71
+il-pace,270,1,23
+il-pace,290,47,52
+il-pace,309,35,50
+il-pace,422,66,92
+il-pace,472,17,71
+pa-prt,Red,5,14
+pa-prt,P1,1,6
+pa-prt,1,1,113
+pa-prt,29,3,9
+pa-prt,77-L,3,15
 ma-wrta,1,1,29
 ma-wrta,3,11,30
 ma-wrta,4,10,28

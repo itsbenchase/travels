@@ -28,4 +28,5 @@ Things coming soon:
 * Get actual line names rather than codes
 * Front-end presentation
 * UI and seek feedback
+* Possible Amtrak support
 * Log more transit
