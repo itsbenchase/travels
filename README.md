@@ -22,3 +22,10 @@ ma-wrta,7,29,39
 Each log entry is on a new line, one line per route entry, and should be ordered as agency, route, start stop, end stop - for convenience, the Route Viewer webpage has the start and end stop numbers listed with each route. Please keep routes in the same agency grouped together to avoid any logging issues. Agency and route codes are the same as used with the Eliot Deviation Index.
 
 You can also just contact Ben and they'll set you up as soon as possible.
+
+### To-Dos
+Things coming soon:
+* Get actual line names rather than codes
+* Front-end presentation
+* UI and seek feedback
+* Log more transit
