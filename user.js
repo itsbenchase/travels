@@ -5,6 +5,7 @@ var globalDist = 0.00;
 const users = [];
 const agencies = [];
 const fullAgencies = [];
+const globalFile = [];
 const globalUsers = [];
 const globalAgencies = [];
 const globalRoutes = [];
@@ -43,16 +44,34 @@ function getUsers()
           fullAgencies.push(data);
         }
       })
+}
 
-      const globalFileUrl = ("https://travel.eliotindex.org/global.txt"); // provide file location
-      fetch(globalFileUrl)
-        .then(r => r.text())
-        .then((text) => {
-          const globalFile = text.split("\n");
-          globalFile.pop();
+function loadUserFile()
+{
+  selectedUser = document.querySelector('#userDrop');
+  user = selectedUser.value;
 
-          loadUser(globalFile);
-        })
+  const globalFileUrl = ("https://travel.eliotindex.org/global.txt"); // provide file location
+  fetch(globalFileUrl)
+    .then(r => r.text())
+    .then((text) => {
+      const globalFile = text.split("\n");
+      globalFile.pop();
+
+      for (let i = 1; i < globalFile.length; i++)
+      {
+        var data = globalFile[i];
+        globalUsers.push(data.substring(0, data.indexOf(",")));
+        data = data.substring(data.indexOf(",") + 1);
+        globalAgencies.push(data.substring(0, data.indexOf(",")));
+        data = data.substring(data.indexOf(",") + 1);
+        globalRoutes.push(data.substring(0, data.indexOf(",")));
+        data = data.substring(data.indexOf(",") + 1);
+        globalDistance.push(data);
+      }
+
+      loadUser();
+    })
 }
 
 function getGlobalTotal()
@@ -68,24 +87,28 @@ function getGlobalTotal()
       data = data.substring(data.indexOf(",") + 1);
       data = data.substring(data.indexOf(",") + 1);
       globalDist = data.substring(data.indexOf(",") + 1);
+
+      document.getElementById("allusers").innerHTML = ("Together, we have logged <b>" + globalDist + "</b> miles of transit.");
     })
 }
 
-function loadUser(globalFile)
+function loadUser()
 {
-  selectedUser = document.querySelector('#userDrop');
-  user = selectedUser.value;
+  var addedAgencies = [];
+  var userAgencies = [];
 
-  for (let i = 1; i < globalFile.length; i++)
+  for (let i = 0; i < agencies.length; i++)
   {
-    var data = globalFile[i];
-    globalUsers.push(data.substring(0, data.indexOf(",")));
-    data = data.substring(data.indexOf(",") + 1);
-    globalAgencies.push(data.substring(0, data.indexOf(",")));
-    data = data.substring(data.indexOf(",") + 1);
-    globalRoutes.push(data.substring(0, data.indexOf(",")));
-    data = data.substring(data.indexOf(",") + 1);
-    globalDistance.push(data);
+    for (let j = 0; j < globalUsers.length; j++)
+    {
+      if (globalUsers[j] == user)
+      {
+        if (!userAgencies.includes(globalAgencies[j]))
+        {
+          userAgencies.push(globalAgencies[j]);
+        }
+      }
+    }
   }
 
   for (let i = 0; i < agencies.length; i++)
@@ -95,22 +118,21 @@ function loadUser(globalFile)
       if (globalUsers[j] == user)
       {
         // do the valid agency check
-        var validAgency = true;
-        if (validAgency)
+        if (!addedAgencies.includes(agencies[i]) && userAgencies.includes(agencies[i]))
         {
           document.getElementById("info").innerHTML += ("<h3>" + fullAgencies[i] + " (" + agencies[i] + ")</h3>");
-          validAgency = false;
+          addedAgencies.push(agencies[i]);
         }
 
         // display route and distance
         if (globalAgencies[j] == agencies[i])
         {
           document.getElementById("info").innerHTML += (globalRoutes[j] + " - " + globalDistance[j] + " mi.<br>");
-          userDist += globalDistance[j];
+          userDist += parseFloat(globalDistance[j]);
         }
       }
     }
   }
 
-  document.getElementById("stats").innerHTML += ("User <b>" + user + "</b> has logged <b>" + userDist + "</b> miles of transit.");
+  document.getElementById("stats").innerHTML = ("User <b>" + user + "</b> has logged <b>" + userDist + "</b> miles of transit.");
 }
