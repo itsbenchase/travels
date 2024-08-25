@@ -1,0 +1,4 @@
+collective,all,all,41.22
+ben,ma-mbta,Worcester,35.28
+ben,ma-wrta,4,2.55
+ben,ma-wrta,24,3.39

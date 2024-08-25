@@ -9,27 +9,17 @@ public class Update
 {
   public static void main(String [] args)
   {
-    // segment list files in users folder
-    // agency,route,start,end
-
-    ArrayList<String> agency = new ArrayList<String>();
-    ArrayList<String> line = new ArrayList<String>();
-    ArrayList<Integer> start = new ArrayList<Integer>();
-    ArrayList<Integer> end = new ArrayList<Integer>();
+    ArrayList<String> users = new ArrayList<String>();
+    ArrayList<String> wholeLog = new ArrayList<String>();
+    double allUserDist = 0.00;
 
     try
     {
-      Scanner s = new Scanner(new File("users/ben.txt"));
+      Scanner s = new Scanner(new File("users.txt"));
       while (s.hasNextLine())
       {
         String data = s.nextLine();
-        agency.add(data.substring(0, data.indexOf(",")));
-        data = data.substring(data.indexOf(",") + 1);
-        line.add(data.substring(0, data.indexOf(",")));
-        data = data.substring(data.indexOf(",") + 1);
-        start.add(Integer.parseInt(data.substring(0, data.indexOf(","))));
-        data = data.substring(data.indexOf(",") + 1);
-        end.add(Integer.parseInt(data));
+        users.add(data);
       }
     }
     catch (Exception e)
@@ -37,10 +27,62 @@ public class Update
       System.out.println("Error.");
     }
 
-    Calculator segment = new Calculator();
-    for (int i = 0; i < agency.size(); i++)
+    for (int i = 0; i < users.size(); i++)
     {
-      System.out.println(segment.edi(agency.get(i), line.get(i), start.get(i), end.get(i)));
+      double userDist = 0.00;
+
+      ArrayList<String> agency = new ArrayList<String>();
+      ArrayList<String> line = new ArrayList<String>();
+      ArrayList<Integer> start = new ArrayList<Integer>();
+      ArrayList<Integer> end = new ArrayList<Integer>();
+
+      try
+      {
+        Scanner s = new Scanner(new File("users/" + users.get(i) + ".txt"));
+        while (s.hasNextLine())
+        {
+          String data = s.nextLine();
+          agency.add(data.substring(0, data.indexOf(",")));
+          data = data.substring(data.indexOf(",") + 1);
+          line.add(data.substring(0, data.indexOf(",")));
+          data = data.substring(data.indexOf(",") + 1);
+          start.add(Integer.parseInt(data.substring(0, data.indexOf(","))));
+          data = data.substring(data.indexOf(",") + 1);
+          end.add(Integer.parseInt(data));
+        }
+      }
+      catch (Exception e)
+      {
+        System.out.println("Error.");
+      }
+
+      Calculator segment = new Calculator();
+      for (int j = 0; j < agency.size(); j++)
+      {
+        double currentLineDist = segment.edi(agency.get(j), line.get(j), start.get(j), end.get(j));
+        wholeLog.add(users.get(i) + "," + agency.get(j) + "," + line.get(j) + "," + currentLineDist);
+        userDist += currentLineDist;
+        allUserDist += currentLineDist;
+      }
+    }
+
+    wholeLog.add(0, "collective,all,all," + allUserDist);
+
+    try
+    {
+      File newFile = new File("global.txt");
+      FileWriter fileWriter = new FileWriter(newFile);
+
+      fileWriter.write(wholeLog.get(0) + "\n");
+      for (int i = 1; i < wholeLog.size(); i++)
+      {
+        fileWriter.append(wholeLog.get(i) + "\n");
+      }
+      fileWriter.close();
+    }
+    catch (Exception e)
+    {
+      System.out.println("whoops error.");
     }
   }
 }
