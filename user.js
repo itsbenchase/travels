@@ -45,7 +45,7 @@ function getUsers()
         }
       })
 }
-
+   
 function loadUserFile()
 {
   selectedUser = document.querySelector('#userDrop');
