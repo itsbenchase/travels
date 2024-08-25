@@ -134,5 +134,6 @@ function loadUser()
     }
   }
 
+  userDist = Math.round(userDist * 100) / 100;
   document.getElementById("stats").innerHTML = ("User <b>" + user + "</b> has logged <b>" + userDist + "</b> miles of transit.");
 }
