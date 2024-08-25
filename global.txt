@@ -1,4 +1,4 @@
-collective,all,all,654.66
+collective,all,all,690.26
 ben,il-cta,Ashland-63,11.32
 ben,il-cta,Blue,26.97
 ben,il-cta,Brown,9.4
@@ -58,6 +58,13 @@ ben,il-metra,UP-NW-harvard,51.47
 ben,il-metra,UP-W,43.06
 ben,mo-metro,Blue,6.61
 ben,mo-metro,70,1.34
+ben,wi-mcts,Connect 1,7.97
+ben,wi-mcts,Blue-124th,3.37
+ben,wi-mcts,Green,3.44
+ben,wi-mcts,Purple,1.55
+ben,wi-mcts,Red,3.02
+ben,wi-mcts,30,13.42
+ben,wi-mcts,63,2.83
 ben,il-pace,Dempster,14.14
 ben,il-pace,215,7.09
 ben,il-pace,270,4.06
