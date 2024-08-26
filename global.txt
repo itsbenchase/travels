@@ -1,7 +1,7 @@
-collective,all,all,2166.51
-ben,il-cta,Ashland-63,11.32
+collective,all,all,2235.64
 ben,il-cta,Blue,26.97
 ben,il-cta,Brown,9.4
+ben,il-cta,Green,11.32
 ben,il-cta,Orange,10.42
 ben,il-cta,Pink,8.96
 ben,il-cta,Purple,3.9
@@ -28,7 +28,7 @@ ben,il-cta,76,2.77
 ben,il-cta,77,3.85
 ben,il-cta,78,1.18
 ben,il-cta,81,5.54
-ben,il-cta,82-lincolnwood,0.88
+ben,il-cta,82,0.88
 ben,il-cta,85A,3.59
 ben,il-cta,93,7.54
 ben,il-cta,97,4.26
@@ -36,17 +36,17 @@ ben,il-cta,124,2.19
 ben,il-cta,134,2.98
 ben,il-cta,146,4.69
 ben,il-cta,147,10.93
-ben,il-cta,151-arthur,10.53
+ben,il-cta,151,10.53
 ben,il-cta,155,3.37
 ben,il-cta,156,5.26
-ben,il-cta,171-n,2.35
-ben,il-cta,172-n,2.21
+ben,il-cta,171,2.35
+ben,il-cta,172,2.21
 ben,il-cta,201,8.12
-ben,ma-mbta,Ashmont,4.35
 ben,ma-mbta,Blue,1.3
 ben,ma-mbta,Green D,13.99
 ben,ma-mbta,Green E,6.54
 ben,ma-mbta,Orange,5.48
+ben,ma-mbta,Red,4.35
 ben,ma-mbta,Worcester,35.28
 ben,ma-mbta,SL1,3.59
 ben,ma-mbta,86,2.28
@@ -54,12 +54,13 @@ ben,il-metra,BNSF,10.58
 ben,il-metra,ME-SC,9.64
 ben,il-metra,MD-N,16.96
 ben,il-metra,UP-N,51.42
-ben,il-metra,UP-NW-harvard,51.47
+ben,il-metra,UP-NW,51.47
 ben,il-metra,UP-W,43.06
 ben,mo-metro,Blue,6.61
 ben,mo-metro,70,1.34
+ben,ny-mta,New Haven,69.13
 ben,wi-mcts,Connect 1,7.97
-ben,wi-mcts,Blue-124th,3.37
+ben,wi-mcts,Blue,3.37
 ben,wi-mcts,Green,3.44
 ben,wi-mcts,Purple,1.55
 ben,wi-mcts,Red,3.02
@@ -77,7 +78,7 @@ ben,pa-prt,Red,3.16
 ben,pa-prt,P1,3.91
 ben,pa-prt,1,22.81
 ben,pa-prt,29,2.01
-ben,pa-prt,77-L,3.41
+ben,pa-prt,77,3.41
 ben,ma-wrta,1,3.54
 ben,ma-wrta,3,2.19
 ben,ma-wrta,4,2.55
@@ -95,9 +96,7 @@ ben,ma-wrta,30,4.03
 ben,ma-wrta,31,8.92
 ben,ma-wrta,33,1.9
 chelsea,ct-ct,Shore Line East,44.68
-chelsea,ma-mbta,Ashmont,11.28
 chelsea,ma-mbta,Blue,5.77
-chelsea,ma-mbta,Braintree,8.46
 chelsea,ma-mbta,Fairmount,9.05
 chelsea,ma-mbta,Fitchburg,49.71
 chelsea,ma-mbta,Franklin,29.41
@@ -113,13 +112,13 @@ chelsea,ma-mbta,Needham,13.09
 chelsea,ma-mbta,Newburyport,33.83
 chelsea,ma-mbta,Orange,10.88
 chelsea,ma-mbta,Providence,59.7
+chelsea,ma-mbta,Red,19.74
 chelsea,ma-mbta,Rockport,16.1
 chelsea,ma-mbta,Stoughton,3.73
 chelsea,ma-mbta,Worcester,35.28
 chelsea,ny-mta,New Haven,65.02
 chelsea,ri-ripta,R,7.83
-chelsea,ri-ripta,1-tf-green,12.06
-chelsea,ri-ripta,1-attleboro,2.87
+chelsea,ri-ripta,1,14.93
 chelsea,ri-ripta,3,10.48
 chelsea,ri-ripta,4,12.08
 chelsea,ri-ripta,6,3.48
@@ -127,8 +126,7 @@ chelsea,ri-ripta,9x,22.71
 chelsea,ri-ripta,10x,18.96
 chelsea,ri-ripta,12x,14.63
 chelsea,ri-ripta,13,10.37
-chelsea,ri-ripta,14-narragansett,35.38
-chelsea,ri-ripta,14-newport,8.15
+chelsea,ri-ripta,14,43.53
 chelsea,ri-ripta,16,11.56
 chelsea,ri-ripta,17,5.37
 chelsea,ri-ripta,18,3.5
@@ -138,8 +136,7 @@ chelsea,ri-ripta,21,11.45
 chelsea,ri-ripta,22,10.98
 chelsea,ri-ripta,23,7.75
 chelsea,ri-ripta,24l,32.83
-chelsea,ri-ripta,27-waterman,6.08
-chelsea,ri-ripta,27-woona,2.22
+chelsea,ri-ripta,27,8.3
 chelsea,ri-ripta,28,4.92
 chelsea,ri-ripta,29,8.08
 chelsea,ri-ripta,30,10.6
@@ -157,8 +154,7 @@ chelsea,ri-ripta,56,3.41
 chelsea,ri-ripta,57,4.77
 chelsea,ri-ripta,58,10.17
 chelsea,ri-ripta,59x,17.43
-chelsea,ri-ripta,60-e,29.28
-chelsea,ri-ripta,60-w,10.94
+chelsea,ri-ripta,60,40.22
 chelsea,ri-ripta,61x,23.33
 chelsea,ri-ripta,63,8.38
 chelsea,ri-ripta,64,26.43
@@ -170,11 +166,11 @@ chelsea,ri-ripta,69,11.66
 chelsea,ri-ripta,71,5.0
 chelsea,ri-ripta,72,8.15
 chelsea,ri-ripta,73,5.38
-chelsea,ri-ripta,75-mall,8.88
+chelsea,ri-ripta,75,8.88
 chelsea,ri-ripta,76,3.56
 chelsea,ri-ripta,78,9.29
 chelsea,ri-ripta,80,3.74
-chelsea,ri-ripta,87-e,5.69
+chelsea,ri-ripta,87,5.69
 chelsea,ri-ripta,88,1.04
 chelsea,ri-ripta,89,6.12
 chelsea,ri-ripta,92,5.76

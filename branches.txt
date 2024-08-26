@@ -1,0 +1,22 @@
+il-cta;Green;Ashland-63
+il-cta;Green;Cottage Grove
+il-cta;82;82-lincolnwood
+il-cta;151;151-arthur
+il-cta;151;151-belmont
+il-cta;171;171-n
+il-cta;172;172-n
+ma-mbta;Red;Ashmont
+ma-mbta;Red;Braintree
+il-metra;UP-NW;UP-NW-harvard
+wi-mcts;Blue;Blue-124th
+pa-prt;77;77-L
+ri-ripta;1;1-attleboro
+ri-ripta;1;1-tf-green
+ri-ripta;14;14-narragansett
+ri-ripta;14;14-newport
+ri-ripta;27;27-waterman
+ri-ripta;27;27-woona
+ri-ripta;60;60-e
+ri-ripta;60;60-w
+ri-ripta;75;75-mall
+ri-ripta;87;87-e

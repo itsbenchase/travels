@@ -1,6 +1,6 @@
-il-cta,Ashland-63,1,20
 il-cta,Blue,1,32
 il-cta,Brown,1,23
+il-cta,Ashland-63,1,20
 il-cta,Orange,1,13
 il-cta,Pink,1,18
 il-cta,Purple,1,9
@@ -41,11 +41,11 @@ il-cta,156,1,44
 il-cta,171-n,1,15
 il-cta,172-n,1,14
 il-cta,201,1,57
-ma-mbta,Ashmont,4,11
 ma-mbta,Blue,2,5
 ma-mbta,Green D,1,25
 ma-mbta,Green E,10,25
 ma-mbta,Orange,5,17
+ma-mbta,Ashmont,4,11
 ma-mbta,Worcester,1,17
 ma-mbta,SL1,1,10
 ma-mbta,86,1,16
@@ -57,6 +57,7 @@ il-metra,UP-NW-harvard,1,20
 il-metra,UP-W,1,19
 mo-metro,Blue,10,20
 mo-metro,70,29,36
+ny-mta,New Haven,1,31
 wi-mcts,Connect 1,1,17
 wi-mcts,Blue-124th,3,17
 wi-mcts,Green,1,19

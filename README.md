@@ -25,7 +25,6 @@ You can also just contact Ben and they'll set you up as soon as possible.
 
 ### To-Dos
 Things coming soon:
-* Get actual line names rather than codes
 * Front-end presentation
 * UI and seek feedback
 * Possible Amtrak support

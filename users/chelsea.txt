@@ -1,7 +1,5 @@
 ct-ct,Shore Line East,1,9
-ma-mbta,Ashmont,1,17
 ma-mbta,Blue,1,12
-ma-mbta,Braintree,13,18
 ma-mbta,Fairmount,1,9
 ma-mbta,Fitchburg,1,19
 ma-mbta,Franklin,1,17
@@ -17,13 +15,15 @@ ma-mbta,Needham,1,12
 ma-mbta,Newburyport,1,11
 ma-mbta,Orange,1,20
 ma-mbta,Providence,1,14
+ma-mbta,Ashmont,1,17
+ma-mbta,Braintree,13,18
 ma-mbta,Rockport,6,13
 ma-mbta,Stoughton,6,8
 ma-mbta,Worcester,1,17
 ny-mta,New Haven,2,31
 ri-ripta,R,1,32
-ri-ripta,1-tf-green,1,61
 ri-ripta,1-attleboro,44,63
+ri-ripta,1-tf-green,1,61
 ri-ripta,3,1,62
 ri-ripta,4,1,69
 ri-ripta,6,1,23
