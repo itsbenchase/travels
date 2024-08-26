@@ -1,4 +1,4 @@
-collective,all,all,1483.62
+collective,all,all,1941.94
 ben,il-cta,Ashland-63,11.32
 ben,il-cta,Blue,26.97
 ben,il-cta,Brown,9.4
@@ -94,7 +94,29 @@ ben,ma-wrta,24,2.48
 ben,ma-wrta,30,4.03
 ben,ma-wrta,31,8.92
 ben,ma-wrta,33,1.9
+chelsea,ct-ct,Shore Line East,44.68
+chelsea,ma-mbta,Ashmont,11.28
+chelsea,ma-mbta,Blue,5.77
+chelsea,ma-mbta,Braintree,8.46
+chelsea,ma-mbta,Fairmount,9.05
+chelsea,ma-mbta,Fitchburg,49.71
+chelsea,ma-mbta,Franklin,29.41
+chelsea,ma-mbta,Green B,4.13
+chelsea,ma-mbta,Green C,2.91
+chelsea,ma-mbta,Green D,13.99
+chelsea,ma-mbta,Green E,8.38
+chelsea,ma-mbta,Haverhill,31.27
+chelsea,ma-mbta,Lowell,24.31
+chelsea,ma-mbta,Mattapan,2.48
+chelsea,ma-mbta,Middleborough,34.56
+chelsea,ma-mbta,Needham,13.09
+chelsea,ma-mbta,Newburyport,33.83
+chelsea,ma-mbta,Orange,10.88
 chelsea,ma-mbta,Providence,59.7
+chelsea,ma-mbta,Rockport,16.1
+chelsea,ma-mbta,Stoughton,3.73
+chelsea,ma-mbta,Worcester,35.28
+chelsea,ny-mta,New Haven,65.02
 chelsea,ri-ripta,R,7.83
 chelsea,ri-ripta,1-tf-green,12.06
 chelsea,ri-ripta,1-attleboro,2.87
