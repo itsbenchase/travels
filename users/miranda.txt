@@ -1,0 +1,9 @@
+ca-lacmta,A,10,24
+ca-lacmta,C,4,8
+ny-mta,New Haven,1,32
+dc-wmata,Blue,1,28
+dc-wmata,Green,3,11
+dc-wmata,Orange,1,26
+dc-wmata,Red,1,27
+dc-wmata,Silver,1,34
+dc-wmata,Yellow,1,10

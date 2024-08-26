@@ -1,4 +1,4 @@
-collective,all,all,1941.94
+collective,all,all,2166.51
 ben,il-cta,Ashland-63,11.32
 ben,il-cta,Blue,26.97
 ben,il-cta,Brown,9.4
@@ -181,3 +181,12 @@ chelsea,ri-ripta,92,5.76
 chelsea,ri-ripta,95x,39.66
 chelsea,ri-ripta,301,19.78
 chelsea,ri-ripta,Qx,26.76
+miranda,ca-lacmta,A,11.38
+miranda,ca-lacmta,C,5.1
+miranda,ny-mta,New Haven,69.81
+miranda,dc-wmata,Blue,27.38
+miranda,dc-wmata,Green,6.55
+miranda,dc-wmata,Orange,24.98
+miranda,dc-wmata,Red,30.89
+miranda,dc-wmata,Silver,40.19
+miranda,dc-wmata,Yellow,8.29
