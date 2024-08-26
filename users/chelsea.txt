@@ -1,4 +1,9 @@
 ct-ct,Shore Line East,1,9
+ct-ct,201,1,87
+ct-ct,261,1,67
+ct-ct,271-M,1,107
+ma-gatra,12,1,11
+ct-gbt,coastal,1,147
 ma-mbta,Blue,1,12
 ma-mbta,Fairmount,1,9
 ma-mbta,Fitchburg,1,19
@@ -20,7 +25,35 @@ ma-mbta,Braintree,13,18
 ma-mbta,Rockport,6,13
 ma-mbta,Stoughton,6,8
 ma-mbta,Worcester,1,17
+ma-mbta,SL1,1,10
+ma-mbta,SL2,1,9
+ma-mbta,SL3,1,10
+ma-mbta,SL4,1,12
+ma-mbta,SL5,1,13
+ma-mbta,1,1,24
+ma-mbta,8,1,46
+ma-mbta,9,1,26
+ma-mbta,11-out,1,31
+ma-mbta,15,1,19
+ma-mbta,28,1,35
+ma-mbta,31,1,17
+ma-mbta,32,1,25
+ma-mbta,39,1,26
+ma-mbta,43,1,15
+ma-mbta,44,1,23
+ma-mbta,69,1,17
+ma-mbta,73,1,24
+ma-mbta,93,1,20
+ma-mbta,95-arlington,1,34
+ma-mbta,114,1,18
+ma-mbta,120,1,33
+ma-mbta,426,1,45
+ma-mbta,455,1,62
+ma-mbta,712,1,26
+ma-mbta,713,1,25
 ny-mta,New Haven,2,31
+ny-mta,1,4,18
+ny-mta,1,30,38
 ri-ripta,R,1,32
 ri-ripta,1-attleboro,44,63
 ri-ripta,1-tf-green,1,61
@@ -85,3 +118,5 @@ ri-ripta,92,1,41
 ri-ripta,95x,1,15
 ri-ripta,301,1,20
 ri-ripta,Qx,1,30
+ct-rvt,641-westbrook,1,83
+ct-rvt,643,1,68

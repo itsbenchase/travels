@@ -1,4 +1,4 @@
-collective,all,all,2235.64
+collective,all,all,2477.51
 ben,il-cta,Blue,26.97
 ben,il-cta,Brown,9.4
 ben,il-cta,Green,11.32
@@ -96,6 +96,11 @@ ben,ma-wrta,30,4.03
 ben,ma-wrta,31,8.92
 ben,ma-wrta,33,1.9
 chelsea,ct-ct,Shore Line East,44.68
+chelsea,ct-ct,201,20.62
+chelsea,ct-ct,261,8.94
+chelsea,ct-ct,271,15.38
+chelsea,ma-gatra,12,6.1
+chelsea,ct-gbt,Coastal Link,24.4
 chelsea,ma-mbta,Blue,5.77
 chelsea,ma-mbta,Fairmount,9.05
 chelsea,ma-mbta,Fitchburg,49.71
@@ -116,7 +121,34 @@ chelsea,ma-mbta,Red,19.74
 chelsea,ma-mbta,Rockport,16.1
 chelsea,ma-mbta,Stoughton,3.73
 chelsea,ma-mbta,Worcester,35.28
+chelsea,ma-mbta,SL1,3.59
+chelsea,ma-mbta,SL2,1.63
+chelsea,ma-mbta,SL3,5.17
+chelsea,ma-mbta,SL4,2.3
+chelsea,ma-mbta,SL5,2.35
+chelsea,ma-mbta,1,4.35
+chelsea,ma-mbta,8,7.0
+chelsea,ma-mbta,9,3.63
+chelsea,ma-mbta,11,4.14
+chelsea,ma-mbta,15,2.69
+chelsea,ma-mbta,28,5.43
+chelsea,ma-mbta,31,3.1
+chelsea,ma-mbta,32,4.51
+chelsea,ma-mbta,39,4.74
+chelsea,ma-mbta,43,2.29
+chelsea,ma-mbta,44,3.37
+chelsea,ma-mbta,69,2.29
+chelsea,ma-mbta,73,3.92
+chelsea,ma-mbta,93,2.73
+chelsea,ma-mbta,95,5.75
+chelsea,ma-mbta,114,2.54
+chelsea,ma-mbta,120,4.28
+chelsea,ma-mbta,426,10.86
+chelsea,ma-mbta,455,13.01
+chelsea,ma-mbta,712,4.04
+chelsea,ma-mbta,713,4.02
 chelsea,ny-mta,New Haven,65.02
+chelsea,ny-mta,1,9.12
 chelsea,ri-ripta,R,7.83
 chelsea,ri-ripta,1,14.93
 chelsea,ri-ripta,3,10.48
@@ -177,6 +209,8 @@ chelsea,ri-ripta,92,5.76
 chelsea,ri-ripta,95x,39.66
 chelsea,ri-ripta,301,19.78
 chelsea,ri-ripta,Qx,26.76
+chelsea,ct-rvt,641,16.03
+chelsea,ct-rvt,643,27.55
 miranda,ca-lacmta,A,11.38
 miranda,ca-lacmta,C,5.1
 miranda,ny-mta,New Haven,69.81

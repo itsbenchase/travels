@@ -1,3 +1,6 @@
+ct-ct;271;271-M
+ct-ct;271;271-R
+ct-ct;271;271-S
 il-cta;Green;Ashland-63
 il-cta;Green;Cottage Grove
 il-cta;82;82-lincolnwood
@@ -5,8 +8,13 @@ il-cta;151;151-arthur
 il-cta;151;151-belmont
 il-cta;171;171-n
 il-cta;172;172-n
+ct-gbt;Coastal Link;coastal
 ma-mbta;Red;Ashmont
 ma-mbta;Red;Braintree
+ma-mbta;11;11-in
+ma-mbta;11;11-out
+ma-mbta;95;95-arlington
+ma-mbta;95;95-playstead
 il-metra;UP-NW;UP-NW-harvard
 wi-mcts;Blue;Blue-124th
 pa-prt;77;77-L
@@ -20,3 +28,5 @@ ri-ripta;60;60-e
 ri-ripta;60;60-w
 ri-ripta;75;75-mall
 ri-ripta;87;87-e
+ct-rvt;641;641-clinton
+ct-rvt;641;641-westbrook
