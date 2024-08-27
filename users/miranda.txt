@@ -1,6 +1,8 @@
 ca-lacmta,A,10,24
 ca-lacmta,C,4,8
 ny-mta,New Haven,1,32
+nj-njt,NEC,1,18
+pa-septa,MFL,1,28
 dc-wmata,Blue,1,28
 dc-wmata,Green,3,11
 dc-wmata,Orange,1,26
