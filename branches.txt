@@ -273,6 +273,7 @@ md-mont;98;98-gcc
 ny-nice;n1;n1-jamaica
 ny-nice;n15;n15-M
 nj-njt;Northeast Corridor;NEC
+nj-njt;River Line;river
 nj-njt;1;1-exchange
 nj-njt;1;1-journal
 nj-njt;1;1-newark

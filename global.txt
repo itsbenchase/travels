@@ -1,4 +1,4 @@
-collective,all,all,2598.83
+collective,all,all,3058.83
 ben,il-cta,Blue,26.97
 ben,il-cta,Brown,9.4
 ben,il-cta,Green,11.32
@@ -211,6 +211,46 @@ chelsea,ri-ripta,301,19.78
 chelsea,ri-ripta,Qx,26.76
 chelsea,ct-rvt,641,16.03
 chelsea,ct-rvt,643,27.55
+evan,ca-lacmta,E,2.14
+evan,ca-lacmta,K,5.75
+evan,ma-mbta,Fitchburg,6.31
+evan,ma-mbta,Foxboro,1.02
+evan,ma-mbta,Kingston,7.53
+evan,ma-mbta,Lowell,5.35
+evan,ma-mbta,Needham,4.9
+evan,ma-mbta,Providence,42.08
+evan,ma-mbta,Stoughton,18.34
+evan,ma-mbta,Worcester,40.98
+evan,ma-mbta,Rockport,32.0
+evan,ma-mbta,Red,28.35
+evan,ma-mbta,Mattapan,2.48
+evan,ma-mbta,Orange,10.88
+evan,ma-mbta,Blue,5.77
+evan,ma-mbta,Green B,4.89
+evan,ma-mbta,Green D,13.99
+evan,ma-mbta,Green E,8.38
+evan,ma-mbta,1,2.26
+evan,ma-mbta,31,3.1
+evan,ma-mbta,39,2.58
+evan,ma-mbta,62,6.29
+evan,ma-mbta,66,3.89
+evan,ma-mbta,77,5.41
+evan,ma-mbta,83,2.21
+evan,ma-mbta,87,1.87
+evan,ma-mbta,220,4.7
+evan,ma-mbta,350,7.24
+evan,ma-mbta,SL1,0.78
+evan,ny-mta,New Haven,69.13
+evan,ny-mta,M1,1.84
+evan,nj-njt,Northeast Corridor,57.14
+evan,nj-njt,River Line,32.27
+evan,ri-ripta,R,4.02
+evan,ri-ripta,19,1.84
+evan,ri-ripta,27,1.59
+evan,ri-ripta,33,0.19
+evan,pa-septa,MFL,2.6
+evan,dc-wmata,Blue,5.73
+evan,ma-wrta,7,2.18
 miranda,ca-lacmta,A,11.38
 miranda,ca-lacmta,C,5.1
 miranda,ny-mta,Harlem,51.52

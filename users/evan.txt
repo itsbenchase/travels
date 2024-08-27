@@ -1,0 +1,41 @@
+ca-lacmta,E,18,21
+ca-lacmta,K,1,7
+ma-mbta,Fitchburg,1,3
+ma-mbta,Foxboro,2,3
+ma-mbta,Kingston,1,3
+ma-mbta,Lowell,1,2
+ma-mbta,Needham,1,4
+ma-mbta,Providence,1,12
+ma-mbta,Stoughton,1,8
+ma-mbta,Worcester,1,18
+ma-mbta,Rockport,1,13
+ma-mbta,Ashmont,1,17
+ma-mbta,Braintree,1,18
+ma-mbta,Mattapan,1,8
+ma-mbta,Orange,1,20
+ma-mbta,Blue,1,12
+ma-mbta,Green B,1,18
+ma-mbta,Green D,1,25
+ma-mbta,Green E,1,25
+ma-mbta,1,13,23
+ma-mbta,31,1,17
+ma-mbta,39,11,26
+ma-mbta,62,1,34
+ma-mbta,66,3,24
+ma-mbta,77,1,33
+ma-mbta,83,1,16
+ma-mbta,87,21,36
+ma-mbta,220,1,33
+ma-mbta,350,1,39
+ma-mbta,SL1,1,3
+ny-mta,New Haven,1,31
+ny-mta,M1,35,52
+nj-njt,NEC,1,16
+nj-njt,river,1,18
+ri-ripta,R,15,29
+ri-ripta,19,30,42
+ri-ripta,27-woona,1,11
+ri-ripta,33,53,54
+pa-septa,MFL,8,14
+dc-wmata,Blue,6,14
+ma-wrta,7,19,39
