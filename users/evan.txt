@@ -29,6 +29,11 @@ ma-mbta,220,1,33
 ma-mbta,350,1,39
 ma-mbta,SL1,1,3
 ny-mta,New Haven,1,31
+ny-mta,2,22,27
+ny-mta,5,20,26
+ny-mta,6,19,24
+ny-mta,7,1,4
+ny-mta,Q,2,7
 ny-mta,M1,35,52
 nj-njt,NEC,1,16
 nj-njt,river,1,18

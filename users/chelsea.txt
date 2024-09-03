@@ -54,6 +54,16 @@ ma-mbta,713,1,25
 ny-mta,New Haven,2,31
 ny-mta,1,4,18
 ny-mta,1,30,38
+ny-mta,3,7,11
+ny-mta,4,2,15
+ny-mta,4,16,18
+ny-mta,6,19,24
+ny-mta,6,29,38
+ny-mta,7,1,22
+ny-mta,A-ozone,6,10
+ny-mta,F,22,28
+ny-mta,J,3,6
+ny-mta,R,15,17
 ri-ripta,R,1,32
 ri-ripta,1-attleboro,44,63
 ri-ripta,1-tf-green,1,61

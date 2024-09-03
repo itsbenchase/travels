@@ -2,7 +2,6 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.io.File;
 import java.io.FileWriter;
-import java.net.URI;
 
 // the thing that calculates the Eliot Deviation Index
 // massively edit to only have segment calculating bit
@@ -17,32 +16,88 @@ public class Calculator
     ArrayList<Stop> stops = new ArrayList<Stop>();
     int stopCount = 0;
     Stop [] theLine;
+
+    ArrayList<String> overrideRoute = new ArrayList<String>();
     
     // loads in EDI file with existing routes only
+    // designed with ben's pc file system in mind
+
     try
     {
-      Scanner s = new Scanner(new URI("https://dev.eliotindex.org/files/" + agencyChoice + "-edi.txt").toURL().openStream());
+      Scanner s = new Scanner(new File("overrides.txt"));
       while (s.hasNextLine())
       {
         String data = s.nextLine();
-        String id = data.substring(0, data.indexOf(";"));
+        String oAgency = data.substring(0, data.indexOf(";"));
         data = data.substring(data.indexOf(";") + 1);
-        String name = data.substring(0, data.indexOf(";"));
-        data = data.substring(data.indexOf(";") + 1);
-        double lat = Double.parseDouble(data.substring(0, data.indexOf(";")));
-        data = data.substring(data.indexOf(";") + 1);
-        double lon = Double.parseDouble(data.substring(0, data.indexOf(";")));
-        data = data.substring(data.indexOf(";") + 1); // lines
-        String line = data.substring(0, data.indexOf(";"));
-        data = data.substring(data.indexOf(";") + 1);
-        int order = Integer.parseInt(data);
+        String oRoute = data;
 
-        stops.add(new Stop(id, name, lat, lon, line, order));
+        overrideRoute.add(oAgency + "-" + oRoute);
       }
     }
     catch (Exception e)
     {
       System.out.println("Error.");
+    }
+
+    if (overrideRoute.contains(agency + "-" + route))
+    {
+      lineChoice = agency + "-" + route;
+
+      try
+      {
+        Scanner s = new Scanner(new File("overrides-data.txt"));
+        while (s.hasNextLine())
+        {
+          String data = s.nextLine();
+          String id = data.substring(0, data.indexOf(";"));
+          data = data.substring(data.indexOf(";") + 1);
+          String name = data.substring(0, data.indexOf(";"));
+          data = data.substring(data.indexOf(";") + 1);
+          double lat = Double.parseDouble(data.substring(0, data.indexOf(";")));
+          data = data.substring(data.indexOf(";") + 1);
+          double lon = Double.parseDouble(data.substring(0, data.indexOf(";")));
+          data = data.substring(data.indexOf(";") + 1); // lines
+          String line = data.substring(0, data.indexOf(";"));
+          data = data.substring(data.indexOf(";") + 1);
+          int order = Integer.parseInt(data);
+
+          stops.add(new Stop(id, name, lat, lon, line, order));
+        }
+      }
+      catch (Exception e)
+      {
+        System.out.println("Error.");
+      }
+    }
+
+    else
+    {
+      try
+      {
+        Scanner s = new Scanner(new File("../edi/files/" + agencyChoice + "-edi.txt"));
+        while (s.hasNextLine())
+        {
+          String data = s.nextLine();
+          String id = data.substring(0, data.indexOf(";"));
+          data = data.substring(data.indexOf(";") + 1);
+          String name = data.substring(0, data.indexOf(";"));
+          data = data.substring(data.indexOf(";") + 1);
+          double lat = Double.parseDouble(data.substring(0, data.indexOf(";")));
+          data = data.substring(data.indexOf(";") + 1);
+          double lon = Double.parseDouble(data.substring(0, data.indexOf(";")));
+          data = data.substring(data.indexOf(";") + 1); // lines
+          String line = data.substring(0, data.indexOf(";"));
+          data = data.substring(data.indexOf(";") + 1);
+          int order = Integer.parseInt(data);
+
+          stops.add(new Stop(id, name, lat, lon, line, order));
+        }
+      }
+      catch (Exception e)
+      {
+        System.out.println("Error.");
+      }
     }
 
     int startStop = start;

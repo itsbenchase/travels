@@ -1,0 +1,76 @@
+17481;Silver Spring Station & Bay 111;38.993619;-77.029923;md-mont-21;1
+15572;Colesville Rd & Georgia Ave;38.995723;-77.028375;md-mont-21;2
+21094;Colesville Rd & Fenton St;38.99746;-77.027111;md-mont-21;3
+16024;Colesville Rd & Spring St;38.998814;-77.026161;md-mont-21;4
+21098;Colesville Rd & Noyes Dr;38.999907;-77.025695;md-mont-21;5
+21100;Colesville Rd & North Noyes Dr;39.001583;-77.025002;md-mont-21;6
+21104;Colesville Rd & Dale Dr;39.005069;-77.022862;md-mont-21;7
+21106;Colesville Rd & Silgo Creek Pkwy;39.007818;-77.019623;md-mont-21;8
+21108;Colesville Rd & Franklin Ave;39.008511;-77.018539;md-mont-21;9
+21110;Colesville Rd & Leighton Ave;39.010384;-77.017357;md-mont-21;10
+21112;Colesville Rd & Indian Spring Dr;39.012265;-77.016709;md-mont-21;11
+21116;Colesville Rd & Lanark Way;39.018803;-77.013901;md-mont-21;12
+16027;Colesville Rd & University Blvd;39.020863;-77.01207;md-mont-21;13
+21120;Colesville Rd & Lorain Ave;39.023708;-77.011039;md-mont-21;14
+21122;Colesville Rd & Southwood Ave;39.025879;-77.010696;md-mont-21;15
+21124;Colesville Rd & Crestmoor Dr;39.027821;-77.009253;md-mont-21;16
+21194;Columbia Pike & @ 10711;39.031306;-77.004485;md-mont-21;17
+21196;Columbia Pike & Hillwood Dr;39.032669;-77.00322;md-mont-21;18
+21198;Columbia Pike & Burnt Mills Ave;39.036391;-76.999891;md-mont-21;19
+21200;Columbia Pike & Northwest Dr;39.03744;-76.999114;md-mont-21;20
+21202;Columbia Pike & Prelude Dr;39.039171;-76.997745;md-mont-21;21
+21204;Columbia Pike & Oak Leaf Dr;39.040596;-76.996061;md-mont-21;22
+17020;Oak Leaf Dr & Sonata Way;39.041874;-76.996635;md-mont-21;23
+17021;Oak Leaf Dr & Symphony Woods Rd;39.043068;-76.997749;md-mont-21;24
+17022;Oak Leaf Dr & Classical Ln;39.042938;-76.999954;md-mont-21;25
+17023;Oak Leaf Dr & Crescendo Way;39.041905;-77.002022;md-mont-21;26
+17024;Prelude Dr & Oak Leaf Dr;39.040286;-77.00164;md-mont-21;27
+17025;Prelude Dr & Legato Way;39.039733;-76.998918;md-mont-21;28
+28658;New Hampshire Ave & Heartfields Dr;39.048001;-76.992774;md-mont-21;29
+28660;New Hampshire Ave & Nora Dr;39.050549;-76.993157;md-mont-21;30
+28662;New Hampshire Ave & Tanley Rd;39.051981;-76.993567;md-mont-21;31
+28664;New Hampshire Ave & Jackson Rd;39.055096;-76.995155;md-mont-21;32
+14744;New Hampshire Ave & Valley Brook Dr;39.058884;-76.997505;md-mont-21;33
+28668;New Hampshire Ave & Venice Dr;39.061365;-76.998193;md-mont-21;34
+28670;New Hampshire Ave & Hollywood Ave;39.064148;-76.999283;md-mont-21;35
+28672;New Hampshire Ave & Thomas Dr;39.066715;-77.000923;md-mont-21;36
+28674;New Hampshire Ave & Shaw Ave;39.068697;-77.002637;md-mont-21;37
+28676;New Hampshire Ave & Bregman Rd;39.071335;-77.003075;md-mont-21;38
+16095;Wolf Dr & Kara Ln;39.072716;-77.001501;md-mont-21;39
+17032;Kara Ln & Autumn Dr;39.071608;-77.0017;md-mont-21;40
+16099;Cannon Rd & Autumn Dr;39.070109;-77.000287;md-mont-21;41
+17000;Cannon Rd & Venetian Rd;39.069984;-76.999001;md-mont-21;42
+17002;Cannon Rd & Buccaneer Rd;39.069653;-76.995461;md-mont-21;43
+17004;Cannon Rd & Clifton Rd;39.069485;-76.994011;md-mont-21;44
+17006;Cannon Rd & Boardmore Rd;39.070071;-76.989872;md-mont-21;45
+17008;Broadmore Rd & Kilgore Rd;39.067898;-76.988327;md-mont-21;46
+17010;Broadmore Rd & Tramarack Rd;39.067039;-76.988182;md-mont-21;47
+17012;Tamarack Rd & Leister Rd;39.067297;-76.986352;md-mont-21;48
+15384;Tamarack Rd & Morningside Dr;39.068041;-76.985279;md-mont-21;49
+15386;Tamarack Rd & Collingwood Ln;39.070412;-76.981018;md-mont-21;50
+15390;Tamarack Rd & Limetree Rd;39.072877;-76.980667;md-mont-21;51
+15394;Tamarack Rd & Northcrest Dr;39.074913;-76.982727;md-mont-21;52
+15398;Tamarack Rd & Mimosa Ln;39.077061;-76.980621;md-mont-21;53
+15402;Tamarack Rd & Fairland Rd;39.077908;-76.979568;md-mont-21;54
+14872;Fairland Rd & Serpentine Way;39.076371;-76.970802;md-mont-21;55
+14869;Fairland Rd & Colefair Dr;39.077013;-76.968114;md-mont-21;56
+14867;Fairland Rd & Fairridge Dr;39.077799;-76.965352;md-mont-21;57
+14865;Fairland Rd & Westwind Dr;39.077705;-76.961456;md-mont-21;58
+14863;Fairland Rd & Old Columbia Pk;39.076294;-76.958054;md-mont-21;59
+15178;Fairland Rd & Columbia Pike;39.074359;-76.95668;md-mont-21;60
+14860;Fairland Rd & Columbia Pike;39.07246;-76.95504;md-mont-21;61
+14862;Fairland Rd & Brahms Ave;39.070839;-76.953522;md-mont-21;62
+16057;Beethoven Blvd & Beethoven Way;39.068024;-76.946198;md-mont-21;63
+16058;Beethoven Blvd & Shubert Dr;39.069485;-76.944984;md-mont-21;64
+16059;Schubert Dr & Conductor Way;39.070332;-76.947395;md-mont-21;65
+16060;Schubert Dr & Piano Ln;39.070992;-76.949104;md-mont-21;66
+14862;Fairland Rd & Brahms Ave;39.070839;-76.953522;md-mont-21;67
+16049;Fairland Rd & Iona Ct;39.065544;-76.942308;md-mont-21;68
+16051;Fairland Rd & Big Horn Dr;39.06516;-76.939491;md-mont-21;69
+16052;Briggs Chaney Rd & Medallion Dr;39.068175;-76.937063;md-mont-21;70
+17618;Briggs Chaney Rd & Legend Oaks Pl;39.070722;-76.937569;md-mont-21;71
+16054;Briggs Chaney Rd & Gentry Ridge Ct;39.072606;-76.938652;md-mont-21;72
+28142;Aston Manor Dr & Parkford Manor Dr;39.077473;-76.938194;md-mont-21;73
+28144;Gateshead Manor Way & Aston Manor Dr;39.078984;-76.938042;md-mont-21;74
+28146;Gateshead Manor Way & Parkford Manor Dr;39.079049;-76.939803;md-mont-21;75
+28148;Gateshead Manor Way & Briggs Chaney Park & Ride;39.077687;-76.942489;md-mont-21;76

@@ -1,4 +1,4 @@
-collective,all,all,3058.83
+collective,all,all,3166.86
 ben,il-cta,Blue,26.97
 ben,il-cta,Brown,9.4
 ben,il-cta,Green,11.32
@@ -149,7 +149,14 @@ chelsea,ma-mbta,712,4.04
 chelsea,ma-mbta,713,4.02
 chelsea,ny-mta,New Haven,65.02
 chelsea,ny-mta,1,9.12
-chelsea,ri-ripta,R,7.83
+chelsea,ny-mta,3,4.19
+chelsea,ny-mta,4,8.22
+chelsea,ny-mta,6,5.01
+chelsea,ny-mta,7,9.84
+chelsea,ny-mta,A,6.37
+chelsea,ny-mta,F,3.25
+chelsea,ny-mta,J,1.1
+chelsea,ri-ripta,R,9.44
 chelsea,ri-ripta,1,14.93
 chelsea,ri-ripta,3,10.48
 chelsea,ri-ripta,4,12.08
@@ -241,6 +248,11 @@ evan,ma-mbta,220,4.7
 evan,ma-mbta,350,7.24
 evan,ma-mbta,SL1,0.78
 evan,ny-mta,New Haven,69.13
+evan,ny-mta,2,4.63
+evan,ny-mta,5,5.35
+evan,ny-mta,6,1.95
+evan,ny-mta,7,1.42
+evan,ny-mta,Q,3.1
 evan,ny-mta,M1,1.84
 evan,nj-njt,Northeast Corridor,57.14
 evan,nj-njt,River Line,32.27
@@ -255,6 +267,9 @@ miranda,ca-lacmta,A,11.38
 miranda,ca-lacmta,C,5.1
 miranda,ny-mta,Harlem,51.52
 miranda,ny-mta,New Haven,69.81
+miranda,ny-mta,A,32.02
+miranda,ny-mta,C,17.99
+miranda,ny-mta,J,1.98
 miranda,nj-njt,Northeast Corridor,57.14
 miranda,pa-septa,MFL,12.66
 miranda,dc-wmata,Blue,27.38

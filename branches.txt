@@ -213,6 +213,10 @@ mo-metro;16 (Illinois);16-il
 mo-metro;16 (Missouri);16-mo
 mo-metro;79;79-dade
 mo-metro;79;79-florissant
+ny-mta;A;A-ozone
+ny-mta;A;A-rockaway
+ny-mta;Rockaway Shuttle;S Rockaway
+ny-mta;Franklin Av Shuttle;S Franklin
 ny-mta;B38;B38-seneca
 ny-mta;B38;B38-starr
 ny-mta;B41;B41-bergen
@@ -264,6 +268,7 @@ md-mont;1;1-leland
 md-mont;2;2-detrick
 md-mont;19;19-parkside
 md-mont;20;20-hillandale
+md-mont;21;md-mont-21
 md-mont;34;34-aspen
 md-mont;36;36-hillandale
 md-mont;52;52-georgia
