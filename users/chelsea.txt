@@ -2,6 +2,8 @@ ct-ct,Shore Line East,1,9
 ct-ct,201,1,87
 ct-ct,261,1,67
 ct-ct,271-M,1,107
+ct-ct,311,1,35
+ct-ct,344,1,27
 ma-gatra,12,1,11
 ct-gbt,coastal,1,147
 ma-mbta,Blue,1,12

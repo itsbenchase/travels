@@ -1,4 +1,4 @@
-collective,all,all,3166.86
+collective,all,all,3180.92
 ben,il-cta,Blue,26.97
 ben,il-cta,Brown,9.4
 ben,il-cta,Green,11.32
@@ -99,6 +99,8 @@ chelsea,ct-ct,Shore Line East,44.68
 chelsea,ct-ct,201,20.62
 chelsea,ct-ct,261,8.94
 chelsea,ct-ct,271,15.38
+chelsea,ct-ct,311,9.02
+chelsea,ct-ct,344,5.04
 chelsea,ma-gatra,12,6.1
 chelsea,ct-gbt,Coastal Link,24.4
 chelsea,ma-mbta,Blue,5.77
