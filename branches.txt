@@ -129,6 +129,12 @@ ct-ct;311;311-B
 ct-ct;324;324-in
 ct-ct;324;324-out
 ct-ct;324;324-S
+ct-ct;326;326-C
+ct-ct;326;326-S
+ct-ct;331;331-B
+ct-ct;331;331-S
+ct-ct;333;333-D
+ct-ct;341;341-C
 ct-ct;541;541-B
 ct-ct;541;541-C
 il-dekalb;12;12-e
