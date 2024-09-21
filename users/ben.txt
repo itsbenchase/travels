@@ -15,12 +15,13 @@ il-cta,20,1,61
 il-cta,36,4,30
 il-cta,37,8,29
 il-cta,49B,1,28
+il-cta,50,16,43
 il-cta,55,47,59
 il-cta,56,1,70
 il-cta,60,48,51
 il-cta,62,2,5
-il-cta,66,56,65
-il-cta,72,53,63
+il-cta,66,47,65
+il-cta,72,53,69
 il-cta,73,29,47
 il-cta,74,34,61
 il-cta,76,44,65
