@@ -143,6 +143,8 @@ ct-ct;426;426-M
 ct-ct;436;436-B
 ct-ct;436;436-N
 ct-ct;442;442-M
+ct-ct;501;501-C
+ct-ct;510;510-D
 ct-ct;541;541-B
 ct-ct;541;541-C
 il-dekalb;12;12-e
