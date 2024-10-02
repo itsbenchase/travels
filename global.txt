@@ -1,4 +1,4 @@
-collective,all,all,3186.92
+collective,all,all,3187.09
 ben,il-cta,Blue,26.97
 ben,il-cta,Brown,9.4
 ben,il-cta,Green,11.32
@@ -16,7 +16,7 @@ ben,il-cta,20,7.68
 ben,il-cta,36,3.27
 ben,il-cta,37,3.01
 ben,il-cta,49B,3.62
-ben,il-cta,50,3.86
+ben,il-cta,50,4.03
 ben,il-cta,55,1.57
 ben,il-cta,56,9.86
 ben,il-cta,60,0.41
