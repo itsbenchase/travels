@@ -1,4 +1,4 @@
-collective,all,all,3187.09
+collective,all,all,3201.74
 ben,il-cta,Blue,26.97
 ben,il-cta,Brown,9.4
 ben,il-cta,Green,11.32
@@ -50,7 +50,7 @@ ben,ma-mbta,Orange,5.48
 ben,ma-mbta,Red,4.35
 ben,ma-mbta,Worcester,35.28
 ben,ma-mbta,SL1,3.59
-ben,ma-mbta,86,2.28
+ben,ma-mbta,86,2.77
 ben,il-metra,BNSF,10.58
 ben,il-metra,ME,9.64
 ben,il-metra,MD-N,16.96
@@ -81,19 +81,22 @@ ben,pa-prt,1,22.81
 ben,pa-prt,29,2.01
 ben,pa-prt,77,3.41
 ben,ma-wrta,1,3.54
+ben,ma-wrta,2,3.42
 ben,ma-wrta,3,2.19
 ben,ma-wrta,4,2.55
-ben,ma-wrta,6,2.38
+ben,ma-wrta,6,3.42
 ben,ma-wrta,7,1.26
 ben,ma-wrta,8,4.45
 ben,ma-wrta,11,1.28
-ben,ma-wrta,14,1.61
+ben,ma-wrta,14,4.28
 ben,ma-wrta,15,2.08
 ben,ma-wrta,16,6.54
-ben,ma-wrta,19,1.9
+ben,ma-wrta,19,2.33
 ben,ma-wrta,23,1.63
 ben,ma-wrta,24,2.48
-ben,ma-wrta,30,4.03
+ben,ma-wrta,26,2.98
+ben,ma-wrta,27,2.33
+ben,ma-wrta,30,5.32
 ben,ma-wrta,31,8.92
 ben,ma-wrta,33,1.9
 chelsea,ct-ct,Shore Line East,44.68
